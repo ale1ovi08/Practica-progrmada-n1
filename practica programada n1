@@ -1,0 +1,72 @@
+package com.mycompany.clase2;
+
+import javax.swing.JOptionPane;
+
+public class Clase2 {
+
+    public static void main(String[] args) {
+        //*primer ejercicio
+
+        int numero1 = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite un numero: \n"));
+        switch (numero1) {
+            case 1 ->
+                JOptionPane.showMessageDialog(null, "enero, primer cuatri");
+            case 2 ->
+                JOptionPane.showMessageDialog(null, "febrero, primer cuatri");
+            case 3 ->
+                JOptionPane.showMessageDialog(null, "marzo, primer cuatri");
+            case 4 ->
+                JOptionPane.showMessageDialog(null, "abril, primer cuatri");
+            case 5 ->
+                JOptionPane.showMessageDialog(null, "mayo, segundo cuatri");
+            case 6 ->
+                JOptionPane.showMessageDialog(null, "junio, segundo cuatri");
+            case 7 ->
+                JOptionPane.showMessageDialog(null, "julio, segundo cuatri");
+            case 8 ->
+                JOptionPane.showMessageDialog(null, "agosto,segundo cuatri");
+            case 9 ->
+                JOptionPane.showMessageDialog(null, "septiembre, tercer cuatri");
+            case 10 ->
+                JOptionPane.showMessageDialog(null, "octubre, tercer cuatri");
+            case 11 ->
+                JOptionPane.showMessageDialog(null, "noviembre, tercer cuatri");
+            case 12 ->
+                JOptionPane.showMessageDialog(null, "diciembre, tercer cuatri");
+
+        }
+        
+        //* segundo ejercicio
+        
+         int edad = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese una edad: \n"));
+         
+         if (edad>0 && edad<=5){JOptionPane.showMessageDialog(null, "primera infacia"); }
+         
+         if (edad>=6 && edad<=11){JOptionPane.showMessageDialog(null, "infancia"); }
+         
+         if (edad>=12 && edad<=18){JOptionPane.showMessageDialog(null, "adolecencia"); }
+         
+         if (edad>=19 && edad<=30){JOptionPane.showMessageDialog(null, "juventud"); }
+         
+         if (edad>=30 && edad<=59){JOptionPane.showMessageDialog(null, "adultez"); }
+         
+         if (edad>60){JOptionPane.showMessageDialog(null, "persona mayor"); } 
+         
+         
+         
+         
+         
+         
+         }
+         }
+         
+         
+        
+            
+            
+            
+        
+    
+
+
+
